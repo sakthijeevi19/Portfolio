@@ -54,15 +54,15 @@ header .info {
 }
 
 .profile-pic {
-  width: 70px; /* Adjusted size for better fit */
-  height: 73px; /* Adjusted size for better fit */
+  width: 70px; 
+  height: 73px; 
   border-radius: 50%;
   object-fit: cover;
 }
 
 .intro {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;/* rows ,column = change*/
   align-items: center;
   justify-content: center;
   padding: 20px;
@@ -88,7 +88,7 @@ h3 {
   color: rgb(0, 0, 0);
   font-size: large;
   margin-left: 600px;
-  margin-top: 20px; /* Reduced from 70px */
+  margin-top: 20px; /* call the class = ( . ) */
 }
 
 .cards {
@@ -100,20 +100,20 @@ h3 {
   margin-top: 50px;
 }
 
-.tab {
+.tab {/*edu*/
   font-family: 'Edu AU VIC WA NT Hand', cursive;
   margin: 40px;
-  font-size: 30px;
+  font-size: 25px;
   padding: 7px;
   border-color: black;
 }
 
-.styled-table {
+.styled-table {/*col.box*/
   background-color: rgba(61, 77, 153, 0.906);
   border-collapse: collapse;
   width: 100%;
 }
-
+/*table lines*/
 .styled-table th, .styled-table td {
   border: 1.8px solid rgb(57, 55, 55);
   padding: 7px;
@@ -124,7 +124,7 @@ h3 {
   font-size: 40px;
   margin: 70px 0 50px; /* Reduced from 150px */
 }
-
+/*skill in line*/
 .lang {
   background: linear-gradient(to left, rgb(89, 87, 87), rgba(48, 180, 130, 0.906));
   color: rgb(0, 0, 0);
@@ -135,14 +135,9 @@ h3 {
   margin-top: 50px;
 }
 
-.section {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
 
-.font {
-  font-size: 20px; /* Decreased from 25px */
+.font {/*sk=><=*/
+  font-size: 20px; 
   margin-bottom: 0px;
   width: 340px;
   height: 50px;
@@ -151,8 +146,8 @@ h3 {
   color: #f4f0f0e7;
 }
 
-.font1 {
-  font-size: 25px; /* Decreased from 30px */
+.font1 {/*sk.size*/
+  font-size: 25px; 
   width: 100px;
   height: 50px;
   padding-left: 40px;
@@ -163,7 +158,7 @@ h3 {
 }
 
 .skillpg {
-  position: relative;
+  position: relative;/*move the content*/
   right: 150px;
 }
 
